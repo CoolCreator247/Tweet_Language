@@ -1,9 +1,20 @@
 def lexer():
      
-    tweet_input = "func"
+    tweet_input = ""
     
-    # functions
-    result = tweet_input.find("func")
-    func = True
+    # Math
+    result = tweet_input.find("+")
+    Adding = True
 
-    result = tweet_input.find("")
+    result = tweet_input.find("-")
+    Subtraction = True
+
+    result = tweet_input.find("/")
+    Division = True
+
+    result = tweet_input.find("x")
+    Times = True
+
+    #Vars
+    result = tweet_input.find("var =")
+    vars 
